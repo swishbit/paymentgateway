@@ -1,7 +1,7 @@
 {
-  "name": "swishbit",
+  "name": "swishbit-paymentgateway",
   "version": "0.0.1",
-  "description": "- users should be able to make a swish payment and receive bitcoins to provided address -",
+  "description": "Payment gateway",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src --exec babel-node --presets es2015,stage-2",
