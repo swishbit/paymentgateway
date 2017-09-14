@@ -51,3 +51,7 @@
 - faq
   - how to create and store wallet (address) safely
   - ...
+
+
+#### Swish
+![Swish API](images/swish.png "Swish API")
