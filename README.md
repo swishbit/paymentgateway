@@ -24,13 +24,19 @@
 #### Payment gateway
 ##### Requirements
 - users should be able to make a swish payment and receive bitcoins to provided address
-- it should verify bitcoin address
-- it should log the requested transaction
-- it should ensure sufficient balance
-- it should convert SEK/BTC
-- it should calculate fee
-- it should transfer to address
+- verify bitcoin address
+- log the requested transaction
+- ensure sufficient balance
+- convert SEK/BTC
+- calculate fee
+- transfer to address
   - return SEK to user on error
+
+#### API endpoints
+```
+/transfer
+/paymentrequests (swish callback)
+```
 
 ##### Roadmap
 - simply swish SEK and address to <number>
@@ -54,4 +60,4 @@
 
 
 #### Swish
-![Swish API](images/swish.png "Swish API")
+![Swish API](docs/swish.png "Swish API")
