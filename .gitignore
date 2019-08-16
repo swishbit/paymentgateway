@@ -59,3 +59,5 @@ typings/
 
 *.pem
 *.p12
+
+.ssl

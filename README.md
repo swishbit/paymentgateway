@@ -34,8 +34,8 @@
 
 #### API endpoints
 ```
-/transfer
-/paymentrequests (swish callback)
+GET /swish
+POST /paymentrequests (swish callback)
 ```
 
 ##### Roadmap
@@ -58,6 +58,17 @@
   - how to create and store wallet (address) safely
   - ...
 
+#### TransactionForm
+GET https://<payment_gateway>/swish?amount=<amount>&address=<address>
+
+#### TransactionStatus
+
+#### TransactionHistory
+```
+GET https://blockchain.info/rawaddr/$bitcoin_address
+```
 
 #### Swish
 ![Swish API](docs/swish.png "Swish API")
+
+
